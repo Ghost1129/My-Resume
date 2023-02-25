@@ -3,9 +3,10 @@ import React from 'react'
 
 import Skillicon from '../../assets/api-programming.png'
 import Projects from '../../components/Projects'
-import wavesD from '../../assets/WavesDown.svg'
+
 
 const Skills = () => {
+  const wavesD =require('../../assets/WavesDown.svg')
   return (
     <div className='app__Skills'>
       <Image src={wavesD} className="Skills-TopDivider" />
