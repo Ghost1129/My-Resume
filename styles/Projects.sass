@@ -19,6 +19,11 @@
         margin-bottom: 10px
         margin-left: 60px
 
+        @media screen and (max-width: 480px)
+            margin-top: 20px
+            font-size: 2.5rem
+            text-align: center
+
 
 .project-Container-items
     
@@ -42,6 +47,20 @@
         box-shadow: 0 0 10px rgba(0,0,0,0.5)
         transition: all 0.5s ease-in-out
         position: relative
+
+        @media screen and (max-width: 480px)
+            min-width: 300px
+            height: 200px
+            margin: 0 10px
+            padding: 0 10px
+            // margin: 0 20px
+            // display: inline-block
+            // border-radius: 10px
+            // box-shadow: 0 0 10px rgba(0,0,0,0.5)
+            // transition: all 0.5s ease-in-out
+            // position: relative {
+            
+        
         
 
         &:hover
@@ -89,7 +108,14 @@
             align-items: center
             justify-content: space-around
 
+            @media screen and (max-width: 480px)
+                
+                
+                
+
             .project-icon
+                height: 40px
+                width: 40px
                 
                 transition: all 0.5s ease-in-out
 

@@ -22,6 +22,7 @@ const Skills = () => {
           <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" width={70} height={70} className="Skills-Icon-img" />
           <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" width={70} height={70} className="Skills-Icon-img" />
           <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" width={70} height={70} className="Skills-Icon-img" />
+          
           </div>
         </div>
         <div className='Skills-Icons'>
