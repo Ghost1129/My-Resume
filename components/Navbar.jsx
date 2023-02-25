@@ -35,7 +35,7 @@ const Navbar = () => {
            {showMenu && (
              <motion.div
                 whileInView={{x:[300,0]}}
-                transition={{duration:1}}
+                transition={{duration:1,ease:'easeInOut'}}
              >
              <HiX className='hamburger_menu' onClick={()=>setShowMenu(false)} size={40} />
              <ul>

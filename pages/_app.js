@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import '../styles/globals.sass'
 import '../styles/About.sass'
 import '../styles/Navbar.sass'
 import '../styles/Header.sass'
