@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import wavesD from '../../assets/WavesDown.svg'
+// import wavesD from '../../assets/WavesDown.svg'
 import Skillicon from '../../assets/api-programming.png'
 import Projects from '../../components/Projects'
 
