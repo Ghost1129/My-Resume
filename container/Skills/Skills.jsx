@@ -6,7 +6,7 @@ import Projects from '../../components/Projects'
 
 
 const Skills = () => {
-  const wavesD =require('../../assets/WavesDown.svg')
+  const wavesD =require('../../assets/waves/waveskillup.svg')
   return (
     <div className='app__Skills'>
       <Image src={wavesD} className="Skills-TopDivider" />
