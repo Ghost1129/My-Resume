@@ -1,0 +1,240 @@
+.app__header
+    
+    width: 100%
+    height: 100vh
+    position: relative
+    background: url(../assets/wavesB.svg)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    overflow: hidden
+    z-index: 1
+    
+
+.app__Avatar-back
+    width: 500px
+    height: 300px
+    
+    border-radius: 500px
+    position: absolute
+    top: 40px
+    right: -200px
+    transform: rotate(-35deg)
+    overflow: hidden
+    background: rgba( 255, 255, 255, 0.25 )
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
+    backdrop-filter: blur( 4px )
+    -webkit-backdrop-filter: blur( 4px )
+    
+
+    @media screen and (min-width: 800px)
+        width: 700px
+        height: 400px
+        top: 20px
+
+.app__Avatar-logos
+    width: 300px
+    height: 300px
+    
+    border-radius: 100%
+    position: absolute
+    top: 60px
+    right: 0px
+    cursor: pointer
+
+
+    .app__Icon
+        position: absolute
+        top: 50%
+        left: 50%
+        
+        cursor: default
+        
+           
+            
+        
+        
+        
+
+    .app__Icon1
+        @extend .app__Icon
+        transform: translate(-230px,-50px)
+        
+        
+
+        
+        
+
+
+    .app__Icon2
+        @extend .app__Icon
+        
+        border-radius: 100%
+    .app__Icon3
+        @extend .app__Icon
+    .app__Icon4
+        @extend .app__Icon
+    .app__Icon5
+        @extend .app__Icon
+        
+        
+
+    @media screen and (min-width: 800px)
+        width: 400px
+        height: 400px
+        top: 110px
+        right: 100px
+
+        .app__Icon1
+            transform: translate(-300px,-100px)
+
+        .app__Icon2
+            transform: translate(-230px,-230px)
+
+        .app__Icon3
+            transform: translate(-280px,40px)
+
+        .app__Icon4
+            transform: translate(-160px,180px)
+
+        .app__Icon5
+            transform: translate(10px,210px)
+            
+        
+        
+
+.app__Avatar
+    transform: rotate(35deg)
+    position: absolute
+    
+    height: 100%
+    width: 50%
+
+
+// Main Text Here
+.app__header-badge
+    // position: absolute
+    // top: 20%
+    
+
+    .badge-main
+        display: flex
+        position: absolute
+        transform: rotate(-5deg)
+        align-items: center
+        gap: 1rem
+        width: 260px
+        height: 160px
+        left: 10%
+        top: 20%
+        background: rgbargba( 255, 255, 255, 0.25 )
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
+        backdrop-filter: blur( 15.5px )
+        -webkit-backdrop-filter: blur( 15.5px )
+        border-radius: 10px
+        border: 1px solid rgba( 255, 255, 255, 0.18 )
+
+        p
+            font-size: 1rem
+            font-weight: bold
+            color: black
+            
+            text-shadow: 0 0 10px rgba(0,0,0,0.5)
+            cursor: default
+
+        h1
+            font-size: 2rem
+            font-weight: bold
+            color: black
+            text-align: center
+            text-shadow: 0 0 10px rgba(0,0,0,0.5)
+            cursor: default
+
+    .badge-description
+        display: flex
+        position: absolute
+        // transform: rotate(-5deg)
+        align-items: center
+        gap: 1rem
+        width: 260px
+        height: 160px
+        left: 30%
+        top: 50%
+        background: rgbargba( 255, 255, 255, 0.25 )
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
+        backdrop-filter: blur( 15.5px )
+        -webkit-backdrop-filter: blur( 15.5px )
+        border-radius: 10px
+        border: 1px solid rgba( 255, 255, 255, 0.18 )
+
+        p
+            font-size: 1.2rem
+            font-weight: bold
+            color: black
+            text-align: center
+            text-shadow: 0 0 10px rgba(0,0,0,0.5)
+            cursor: default
+
+        span
+            font-size: 1.3rem
+            font-weight: bolder
+            color: white
+            text-align: center
+            text-shadow: 0 0 10px rgba(0,0,0,0.5)
+            cursor: default
+
+
+
+
+
+
+.app__header-Social
+    position: absolute
+    bottom: 25%
+    left: -20px
+    display: flex
+    flex-direction: row-reverse
+    transform: rotate(-90deg)
+    align-items: center
+    gap: 1rem
+
+    .app__header-Social-icon
+        width: 20px
+        height: 20px
+        display: flex
+        justify-content: center
+        align-items: center
+        cursor: pointer
+        transform: rotate(90deg)
+        transition: all 0.3s ease-in-out
+
+
+        &:hover
+            
+            color: white
+
+    span
+        font-size: 1rem
+        color: white
+        position: relative
+        cursor: default
+        &::before
+            
+            content: ''
+            position: absolute
+            top: 50%
+            right: 110%
+            display: block
+            width: 50px
+            height: 2px
+            background: #000
+            
+
+
+.app__header-Wave
+    
+    position: absolute
+    bottom: 0
+    width: 100%
+    transform: rotate(180deg)
+    
