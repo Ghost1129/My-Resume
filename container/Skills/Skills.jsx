@@ -1,13 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
-// import wavesD from '../../assets/WavesDown.svg'
+
 import Skillicon from '../../assets/api-programming.png'
 import Projects from '../../components/Projects'
+import wavesD from '../../assets/WavesDown.svg'
 
 const Skills = () => {
   return (
     <div className='app__Skills'>
-      {/* <Image src={wavesD} className="Skills-TopDivider" /> */}
+      <Image src={wavesD} className="Skills-TopDivider" />
 
 
       <div id='skills' className='app__Skills-Container'>
