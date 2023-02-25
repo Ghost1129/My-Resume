@@ -4,7 +4,7 @@ import Avatar from '../../assets/avatar.png'
 import Image from 'next/image'
 import Javascript from '../../assets/icons/javascript-logo.png'
 import ReactI from '../../assets/icons/react-native-logo.png'
-import Wave from '../../assets/wavesD.svg'
+import Wave from '../../assets/wavesDown.svg'
 import Ghost from '../../assets/icons8-ghost-96.png'
 import {FaLinkedinIn,FaInstagram} from 'react-icons/fa'
 

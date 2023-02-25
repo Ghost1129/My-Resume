@@ -1,15 +1,14 @@
-import React,{useRef} from 'react'
+import React from 'react'
 import Image from 'next/image'
-import wavesB from '../assets/wavesD.svg'
+import wavesD from '../assets/wavesDown.svg'
 
 
 
 const Footer = () => {
-  const footerRef = useRef(null)
-  console.log(footerRef)
+  
   return (
-    <div id='contact' className='app__Footer' ref={footerRef}>
-      <Image src={wavesB} className="Footer-wave"  />
+    <div id='contact' className='app__Footer'>
+      <Image src={wavesD} className="Footer-wave"  />
       <div className='Footer-box'>
         <h1>Connect with me on social media.</h1>
         <div className='Footer-icons'>
