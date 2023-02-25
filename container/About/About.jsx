@@ -26,11 +26,16 @@ const About = () => {
         <div className='Container-Section'>
           {abouts && abouts.map((about) => (
             // console.log(urlFor(about.image).url()),
-            <div className='Container-Section-part'>
-            <Image className='Container-Section-part-img' width={200} height={200} src={urlFor(about.image).url()}/>
-            <h3>{about.title}</h3>
-            <span>{about.description}</span>
-          </div>
+            <div className='Container-Section-part' >
+              <div className='Container-Section-image'>
+              <Image className='Container-Section-part-img' width={200} height={200} src={urlFor(about.image).url()}/>
+              </div>
+            
+              <h3>{about.title}</h3>
+              <span>{about.description}</span>
+            </div>
+            
+            
           ))}
           
           
