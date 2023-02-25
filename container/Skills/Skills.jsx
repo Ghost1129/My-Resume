@@ -7,7 +7,7 @@ import Projects from '../../components/Projects'
 const Skills = () => {
   return (
     <div className='app__Skills'>
-      <Image src={wavesD} className="Skills-TopDivider" />
+      {/* <Image src={wavesD} className="Skills-TopDivider" /> */}
 
 
       <div id='skills' className='app__Skills-Container'>
