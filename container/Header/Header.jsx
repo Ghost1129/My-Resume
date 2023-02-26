@@ -23,7 +23,13 @@ const Header = () => {
         <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" className='app__Icon4' width={100} height={100} />
         <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" className='app__Icon5' width={100} height={100} />
         </div>
-        <motion.div>
+        <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1}}
+            transition={{ duration: 1 }}
+            
+            
+        >
             <div className='app__header-badge'>
                 {/* Name Text */}
                 <div className="badge-main">
