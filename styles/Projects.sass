@@ -1,9 +1,13 @@
 .project-Container
     position: absolute
+    height: 100vh
     width: 100vw
     top:55%
     left: 0
     font-family: 'Poppins', sans-serif
+    display: flex
+    flex-direction: column
+    
     
     // margin: 0 60px
 
@@ -23,6 +27,7 @@
             margin-top: 20px
             font-size: 2.5rem
             text-align: center
+            margin-right:30px
 
 
 .project-Container-items
@@ -35,6 +40,15 @@
     scroll-behavior: smooth
     scrollbar-width: none
     border-radius: 10px
+   
+
+    @media screen and (max-width: 480px)
+        margin-top: 50px
+       
+
+
+
+
     
 
     .project-Container-item
@@ -73,6 +87,9 @@
             .project-icon
                 transform: scale(1.2)
 
+                @media screen and (max-width: 480px)
+                    transform: scale(1) 
+
         .project-desc
             position: absolute
             top: 0
@@ -94,6 +111,16 @@
             border-radius: 10px
             // box-shadow: 0 0 10px rgba(0,0,0,0.5)
             transition: all 0.5s ease-in-out
+            
+            @media screen and (max-width: 480px)
+                font-size: 1rem
+                bottom: 20px
+                left: 10px
+                // text-align: center
+                // background: rgba(0,0,0,0.5)
+                border-radius: 10px
+                // box-shadow: 0 0 10px rgba(0,0,0,0.5)
+                transition: all 0.5s ease-in-out
 
         div
             position: absolute
@@ -109,7 +136,7 @@
             justify-content: space-around
 
             @media screen and (max-width: 480px)
-                
+
                 
                 
 
