@@ -1,8 +1,17 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import whatsapp from '../assets/projects/whatsapp/WhatsappClone.png'
+import { urlFor,client } from '../client'
 
 const Projects = () => {
+    const [Projects, setProjects] = useState('')
+    useEffect(() => {
+        const query = '*[_type == "works"] | order(_createdAt asc) '
+        client.fetch(query).then((res) => {
+            setProjects(res)
+            console.log(res)
+        })
+    }, [])
 
     const project = [
         {
