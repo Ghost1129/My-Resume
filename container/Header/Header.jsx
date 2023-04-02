@@ -6,7 +6,8 @@ import Javascript from '../../assets/icons/javascript-logo.png'
 import ReactI from '../../assets/icons/react-native-logo.png'
 import Wave from '../../assets/wavesDown.svg'
 import Ghost from '../../assets/icons8-ghost-48.png'
-import {FaLinkedinIn,FaInstagram} from 'react-icons/fa'
+import {FaLinkedinIn,FaInstagram,FaGithub} from 'react-icons/fa'
+import Link from 'next/link'
 
 
 
@@ -52,8 +53,13 @@ const Header = () => {
             </div>
         </motion.div>
         <div className='app__header-Social'>
+            <Link href='https://www.linkedin.com/in/devanshl1129/'>
             <FaLinkedinIn className='app__header-Social-icon'/>
-            <FaInstagram className='app__header-Social-icon'/>
+            </Link>
+            <Link href='https://www.github.com/Ghost1129'>
+                <FaGithub className='app__header-Social-icon'/>
+            </Link>
+            
             <span className='app__header-Social-text' >Follow Me</span>
         </div>
         <Image src={Wave} className="app__header-Wave" width={100} height={100} />
